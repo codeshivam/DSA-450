@@ -22,7 +22,7 @@ public class SubarrayWithGivenSum {
 class Solution
 {
     //Function to find a continuous sub-array which adds up to a given number.
-    static ArrayList<Integer> subarraySum(int[] arr, int n, int s) 
+    public static ArrayList<Integer> subarraySum(int[] arr, int n, int s) 
     {
         // Your code here
         ArrayList<Integer> arrR = new ArrayList<Integer>();
